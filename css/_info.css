@@ -1,0 +1,58 @@
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+}
+
+.info__find{
+    display: flex;
+}
+
+.info__tell{
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+}
+
+.info__tell_org{
+    display: flex;
+    align-items:center;
+    gap: 20px;
+    font-family: "Inter";
+    font-weight:400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.info__form{
+display: flex;
+}
+.info__find__input{
+    border:2px solid rgba(209, 121, 161, 1);
+    padding: 13px;
+    width: 100%;
+}
+
+.info__find__button{
+    font-family: "Bebas Neue";
+    font-weight:400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 16px;
+    margin-left: 0;
+    background-color:rgba(209, 121, 161, 1);
+    color:white;
+    outline: white;
+    border:none;
+}
+
+
+.info__basket {
+    display: flex;
+    gap:5px;
+}
+
+.info__basket__link {
+    padding: 15px 15px;
+}
